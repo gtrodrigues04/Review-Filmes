@@ -1,0 +1,19 @@
+name: CI-CD
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  CI: 
+    runs-on: [self-hosted, windows-11]
+    steps:
+      - name: Passo 01
+        run: echo "Construir a imagem da aplicação"
+      - name: Passo 2
+        run: echo "Publicar a imagem no Docker hub"
+  CD:
+    runs-on: [self-hosted, windows-11]
+    steps:
+      - name: Passo 01
+        run: echo "Deploy da aplicaçãoo"
