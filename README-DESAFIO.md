@@ -25,6 +25,7 @@ Liberando acesso ao container do postgres e acessando no dbeaver:
 Desafio 2 
 
  Cluster criado na aws 
+ 
  ![Alt text](image-4.png)
 
  ![Alt text](cluster.png)
