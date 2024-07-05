@@ -42,3 +42,18 @@ app executando na aws:
 
 ![Alt text](app-aws.png)
 
+# Criando CI/CD com Github Actions
+
+Extensões utilizadas:
+
+Checkout - Permite que faça checkout do projeto local
+Docker login - Utilizado para autenticar no docker hub
+Build and push Docker images - Executa o build, cria a imagem e sobe pro Dockerhub
+Configure AWS Credentials for GitHub Actions - Autentica usuário da aws
+Deploy manifests action for Kubernetes - Realiza o deploy do projeto
+
+Secrets para autenticação na aws e dockerhub configuradas no github:
+
+![Alt text](image-8.png)
+
+
