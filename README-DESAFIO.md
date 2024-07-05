@@ -1,5 +1,7 @@
 # devops4devs-02
 
+# Desafio 1
+
 Buildando e push da imagem da aplicação imagem pro dockerhub:
  - docker build -t gtrodrigues04/review-filmes:v1 -f src/Review-Filmes.Web/Dockerfile src/
  - docker push git@github.com:gtrodrigues04/Review-Filmes.git
@@ -22,7 +24,7 @@ Liberando acesso ao container do postgres e acessando no dbeaver:
  Imagem da aplicação executando na porta 30000:
     ![Alt text](image-2.png)
 
-Desafio 2 
+# Desafio 2 
 
  Cluster criado na aws 
  
@@ -46,13 +48,17 @@ app executando na aws:
 
 Extensões utilizadas:
 
-Checkout - Permite que faça checkout do projeto local
-Docker login - Utilizado para autenticar no docker hub
-Build and push Docker images - Executa o build, cria a imagem e sobe pro Dockerhub
-Configure AWS Credentials for GitHub Actions - Autentica usuário da aws
-Deploy manifests action for Kubernetes - Realiza o deploy do projeto
+- Checkout - Permite que faça checkout do projeto local
 
-Secrets para autenticação na aws e dockerhub configuradas no github:
+- Docker login - Utilizado para autenticar no docker hub
+
+- Build and push Docker images - Executa o build, cria a imagem e sobe pro Dockerhub
+
+- Configure AWS Credentials for GitHub Actions - Autentica usuário da aws
+
+- Deploy manifests action for Kubernetes - Realiza o deploy do projeto
+
+- Secrets para autenticação na aws e dockerhub configuradas no github:
 
 ![Alt text](image-8.png)
 
