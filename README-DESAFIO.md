@@ -20,5 +20,25 @@ Liberando acesso ao container do postgres e acessando no dbeaver:
  ![Alt text](image-1.png)
 
  Imagem da aplicação executando na porta 30000:
+    ![Alt text](image-2.png)
 
- ![Alt text](image-2.png)
+Desafio 2 
+
+ Plataforma criada via cloudformation:
+  ![Alt text](image-2.png)
+  
+ Cluster criado na aws 
+ ![Alt text](image-4.png)
+
+ deploy na aws:
+
+ ![Alt text](image-5.png)
+
+ infos do cluster:
+
+![Alt text](image-7.png)
+
+app executando na aws:
+
+![Alt text](app-aws.png)
+
